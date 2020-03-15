@@ -14,7 +14,7 @@ public class Task2Main {
      * @param discount - % скидки, от 1 до 99.
      * @param offset - номер позиции, с которой нужно применить скидку.
      * @param readLength - количество позиций, к которым нужно применить скидку.
-     @return - массив новых цен.
+     * @return - массив новых цен.
      */
 
     public static @Nullable int[] decryptData(int[] price, int discount, int offset,int readLength){
