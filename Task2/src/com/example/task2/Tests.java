@@ -22,9 +22,9 @@ public class Tests {
     private void doExceptionsCheck(int[] price, int discount, int offset, int readLength ){
         try {
             Task2Main.decryptData(price, discount, offset, readLength);
-            Assert.fail("Fail because exception was not thrown. Array is null");
+            Assert.fail("Fail because exception was not thrown.");
         }catch (IllegalArgumentException e){
-            //true;
+            //игнорируем исключение;
         }
     }
 }

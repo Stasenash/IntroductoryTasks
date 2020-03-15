@@ -12,7 +12,7 @@ public class Task2Main {
         int max = readLength + offset;
         int[] result = new int[readLength];
         for (int i = offset; i < max && i < price.length; i++){ //даже если readLength больше длины массива,
-            // корректо обрабатываем пока не кончится массив
+                                                                // корректо обрабатываем пока не кончится массив
             result[i - offset] = (int) Math.floor(price[i] * (100 - discount) * 0.01);
         }
         return result;
